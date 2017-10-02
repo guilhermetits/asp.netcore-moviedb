@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="6.1.1" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="3.0.1" />
+    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MovieDb.Entity\MovieDb.Entity.csproj" />
+    <ProjectReference Include="..\MovieDb.Business\MovieDb.Business.csproj" />
+    <ProjectReference Include="..\MovieDb.Infrastructure\MovieDb.Infrastructure.csproj" />
+    <ProjectReference Include="..\MovieDb.Data\MovieDb.Data.Rest\MovieDb.Data.Rest.csproj" />
+    <ProjectReference Include="..\MovieDb.Data\MovieDb.Data.Sql\MovieDb.Data.Sql.csproj" />
+  </ItemGroup>
+</Project>

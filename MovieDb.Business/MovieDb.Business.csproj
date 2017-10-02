@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\MovieDb.Data\MovieDb.Data.Rest\MovieDb.Data.Rest.csproj" />
+    <ProjectReference Include="..\MovieDb.Data\MovieDb.Data.Sql\MovieDb.Data.Sql.csproj" />
+    <ProjectReference Include="..\MovieDb.Entity\MovieDb.Entity.csproj" />
+    <ProjectReference Include="..\MovieDb.Infrastructure\MovieDb.Infrastructure.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+</Project>
